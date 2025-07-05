@@ -1,0 +1,22 @@
+{
+  "name": "antinooob",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.525.0",
+    "react-hot-toast": "^2.5.2",
+    "react-toastify": "^11.0.5"
+  }
+}
